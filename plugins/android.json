@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "edu.aiub_portal.aiub"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "edu.aiub_portal.aiub"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "edu.aiub_portal.aiub"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,15 @@
+<div class="container mydiv" >
+    <div class="card card-container">
+        <img src="../../Images/aiub.png" style="height: 50px;width: 50px;" />
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin">
+            <span id="reauth-email" class="reauth-email"></span>
+            <input type="email" id="inputEmail" class="form-control" ng-model="User.Email" placeholder="Email address" autofocus> <br />
+            <input type="password" id="inputPassword" class="form-control" ng-model="User.Password" placeholder="Password" > <br />
+            <button class="btn btn-lg btn-primary btn-block btn-signin" ng-click="SaveCommand()">Sign in</button>
+        </form><br />
+        <a href="#" class="forgot-password">
+            Forgot the password?
+        </a>
+    </div>
+</div>
